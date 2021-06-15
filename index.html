@@ -1,0 +1,48 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <h1>HTML FORMS</h1>
+
+    <form>
+      <label for="username">enter username:</label>
+      <input type="text" id="username" name="username" />
+      <br /><br />
+      <label for="email">enter email</label>
+      <input type="email" id="email" name="email" />
+      <br /><br />
+      <label for="password">enter password</label>
+      <input type="password" id="password" name="password" />
+
+      <p>select your age:</p>
+
+      <input type="radio" name="age" value="0-25" id="option1" />
+      <label for="option1">0-25</label>
+      <input type="radio" name="age" value="26-50" id="option2" />
+      <label for="option2">26-50</label>
+      <input type="radio" name="age" value="51-100" id="option3" />
+      <label for="option3">51-100</label>
+
+      <br /><br />
+
+      <label for="question">Security Question:</label>
+      <select name="question" id="question">
+        <option value="q1">What color are your favorite pair of socks</option>
+        <option value="q2">if you could be an animal what would it be</option>
+        <option value="q3">
+          what if someone wakes you up with a cold water shower
+        </option>
+      </select>
+
+      <br /><br />
+
+      <label for="answer">Security Question Answer:</label>
+      <input type="text" id="answer" name="answer" />
+
+      <br /><br />
+    </form>
+  </body>
+</html>
